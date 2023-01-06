@@ -1,0 +1,20 @@
+.nav-link {
+  text-align: center;
+  text-decoration: solid 2px;
+  border-radius: 100%;
+  padding: 1rem;
+  cursor: pointer;
+  text-transform: capitalize;
+  transition: all 200ms ease-in-out;
+  &:active {
+    text-decoration: underline;
+  }
+
+  &:hover {
+    text-decoration: underline;
+    transform: scale(1.1);
+    text-decoration-color: #ffb26b;
+    text-underline-offset: 8px;
+    font-weight: bold;
+  }
+}
